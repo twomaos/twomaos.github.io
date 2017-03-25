@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Miss Rabbit
+兔子小姐 </title>
+    <link rel="shortcut icon" href="/images/" />
+
+    <script src="/theme/js/jquery-3.1.1.min.js"></script>
+
+    <!-- extra css -->
+
+    <!-- uikit basic -->
+    <link rel="stylesheet" href="/theme/css/uikit.min.css"/>
+    <script src="/theme/js/uikit.min.js"></script>
+
+    <!-- uk components -->
+    <link rel="stylesheet" href="/theme/css/components/sticky.css"/>
+    <script src="/theme/js/components/sticky.js"></script>
+    <link rel="stylesheet" href="/theme/css/components/search.css"/>
+    <script src="/theme/js/components/search.js"></script>
+
+    <!-- self defined  -->
+    <link rel="stylesheet" href="/theme/css/highlight.css"/>
+    <link rel="stylesheet" href="/theme/css/main.css"/>
+
+</head>
+<body>
+
+    <main class="jojo-theme">
+        <div class="uk-container uk-container-center">
+
+            <!-- nav -->
+            <nav id="jojo-page-top" class="uk-navbar jojo-main-nav">
+                <a href="" class="uk-navbar-brand"> Miss Rabbit
+兔子小姐 </a>
+
+                <ul class="uk-navbar-nav">
+                        <li >
+                            <a href="pages\about-me"> About me </a>
+                        </li>
+                        <li class="uk-parent" data-uk-dropdown>
+                            <a href="categories.html"> Category </a>
+                                <div class="uk-dropdown uk-dropdown-navbar">
+                                    <ul class="uk-nav uk-nav-navbar">
+                                            <li class="uk-nav-header">
+                                                    Programming
+                                            </li>
+                                            <li >
+                                                    <a href="category\python.html"> python </a>
+                                            </li>
+                                            <li class="uk-nav-divider">
+                                            </li>
+                                            <li >
+                                                    <a href="category\misc.html"> misc </a>
+                                            </li>
+                                    </ul>
+                                </div>
+                        </li>
+                        <li >
+                            <a href="archives.html"> Archives </a>
+                        </li>
+                </ul>
+
+                <div class="uk-navbar-flip">
+                    <div class="uk-navbar-content">
+                        <form class="uk-search" data-uk-search="{source:'my-results.json'}" action="/search.html">
+                            <input id="tipue_search_input" class="uk-search-field" type="search" name="q" autocomplete="off" required placeholder="Search...">
+                        </form>
+                    </div>
+                </div>
+
+            </nav>
+
+            <div class="uk-panel uk-panel-box uk-panel-box-secondary uk-panel-hover" id="jojo-location-panel">
+                <ul class="uk-breadcrumb">
+                    <li><a href="#" class="uk-icon-map-marker"></a></li>
+                    <li><a href=""> home </a></li>
+    <li><a href="/categories.html"> category </a></li>
+    <li><a href="/category/articles.html"> articles </a></li>
+    <li class="uk-active"><span> index1 </span></li>
+                </ul>
+            </div>
+
+            <div class="uk-grid uk-margin-large-top">
+                <div class="uk-width-medium-1-10">
+
+
+                    <div class="uk-panel jojo-share" data-uk-sticky="{top:300}">
+                        <ul class="uk-nav uk-nav-side">
+                            <li>
+                                <a href="#jojo-page-top" class="uk-button" data-uk-smooth-scroll>
+                                    <i class="uk-icon-chevron-up"></i> Top
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#jojo-page-bottum" class="uk-button" data-uk-smooth-scroll>
+                                    <i class="uk-icon-chevron-down"></i> Bot
+                                </a>
+                            </li>
+    <li>
+        <a href="" class="uk-button">
+            <i class="uk-icon-chevron-left"></i> Prev
+        </a>
+        <a href="" class="uk-button">
+            <i class="uk-icon-chevron-right"></i> Next
+        </a>
+    </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="uk-width-medium-7-10">
+                    <div class="uk-margin-top">
+                        <!-- content -->
+    <article class="uk-article">
+            <div class="uk-grid">
+                <div class="uk-width-medium-2-10">
+                        <div class="tags">
+                                <div>
+                                    <i class="uk-icon-tag"></i>
+                                    <div class="uk-badge uk-badge-notification">
+                                        <a href="/tag/meiyou.html">meiyou</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="uk-width-medium-8-10">
+                    <h2>
+                        <a href="/category/articles/lao-po-sheng-ri-kuai-le/" rel="bookmark"> 老婆，生日快乐 </a>
+                    </h2>
+                    <p class="uk-article-meta">
+                        周六 11 三月 2017
+                    </p>
+                    <p>@(示例笔记本)[马克飞象|帮助|Markdown] 马克飞象是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述： 功能丰富 ：支持高亮代码块、LaTeX 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手； 得心应手 ：简洁高效的编辑器，提供桌面客户端以及离线Chrome App，支持移动端 Web； 深度整合 ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。 [TOC] Markdown简介 Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。 —— 维基百科 正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为粗体或者斜体，创建一个链接或一个脚注1 …</p>
+                    <!--<p> @(示例笔记本)[马克飞象|帮助|Markdown] 马克飞象是一款专为印象笔记（Evernote）打造的Markdown编辑器，通过精心的设计与技术实现，配合印象笔记强大的存储和同步功能，带来前所未有的书写体验。特点概述： 功能丰富 ：支持高亮代码块、LaTeX 公式、流程图，本地图片以及附件上传，甚至截图粘贴，工作学习好帮手； 得心应手 ：简洁高效的编辑器，提供桌面客户端以及离线Chrome App，支持移动端 Web； 深度整合 ：支持选择笔记本和添加标签，支持从印象笔记跳转编辑，轻松管理。 [TOC] Markdown简介 Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。 —— 维基百科 正如您在阅读的这份文档，它使用简单的符号标识不同的标题，将某些文字标记为粗体或者斜体，创建一个链接或一个脚注1。下面列举了几个高级功能，更多语法请按Ctrl + /查看帮助。 代码块 @requires_authorization def somefunc(param1='', param2=0): '''A docstring''' if <span...</p>-->
+                    <p class="uk-text-right jojo-read-more"><a href="/category/articles/lao-po-sheng-ri-kuai-le/">Read More...</a></p>
+                </div>
+            </div>
+            <hr class="uk-article-divider">
+    </article>
+
+                    </div>
+                </div>
+                <div class="uk-width-medium-2-10">
+
+                    <!-- author info -->
+                    <div class="uk-panel uk-panel-box">
+                        <div class="uk-panel-badge uk-badge"> About Me </div>
+                        <h3 class="uk-panel-title"> twomaos </h3>
+                        <img class="uk-thumbnail uk-thumbnail-small uk-align-center"
+                             src="/images/jojo.jpg"
+                             alt="twomaos">
+                        <p>
+                            <ul class="uk-list">
+                                   <li> I am <a href="#">a cute dog</a></li>
+                                   <li> I am <a href="#">a charming blogger</a></li>
+                            </ul>
+                                <p> Hi, my name is jojo, I am a cute dog! </p>
+                                <p> 你好，我是 jojo，一隻可愛的小狗。 </p>
+                        </p>
+                        <p class="uk-text-right">
+                            <a href="pages\about-me"> More About Me... </a>
+                        </p>
+                        <hr>
+                            <h3 class="uk-panel-title"> Contacts </h3>
+                                <a href="#"
+                                   class=" uk-icon-hover                                           uk-icon-medium
+                                          uk-align-left
+                                          uk-icon-envelope-square">
+                                </a>
+                                <a href="#"
+                                   class=" uk-icon-hover                                           uk-icon-medium
+                                          uk-align-left
+                                          uk-icon-facebook-square">
+                                </a>
+                                <a href="#"
+                                   class=" uk-icon-hover                                           uk-icon-medium
+                                          uk-align-left
+                                          uk-icon-github-square">
+                                </a>
+                                <a href="#"
+                                   class=" uk-icon-hover                                           uk-icon-medium
+                                          uk-align-left
+                                          uk-icon-google-plus-square">
+                                </a>
+                    </div>
+
+                    <!-- newest articles -->
+                    <div class="uk-panel uk-panel-box">
+                        <div class="uk-panel-badge uk-badge uk-badge-danger"> Newest </div>
+                        <h3 class="uk-panel-title"> Newest Articles </h3>
+                        <ul class="uk-list uk-list-space">
+                                <li><a href="category/articles/lao-po-sheng-ri-kuai-le/"> 老婆，生日快乐 </a></li>
+                        </ul>
+                    </div>
+
+                            <div class="uk-panel uk-panel-box">
+                                    <div class="uk-panel-badge uk-badge uk-badge-danger">
+                                        Love
+                                    </div>
+                                    <h3 class="uk-panel-title"> My Favorite Food </h3>
+                                    <img class="uk-thumbnail uk-thumbnail-small uk-align-center" src="/images/food.jpg" alt="My Favorite Food">
+                                <p> I really love it! </p>
+                                    <p class="uk-text-right"> <a href="#"> Where to eat it? </a> </p>
+                            </div>
+
+                    <!-- related links -->
+                    <div class="uk-panel uk-panel-box">
+                       <ul class="uk-nav uk-nav-parent-icon" data-uk-nav>
+                           <li class="uk-parent">
+                               <a href="#"> Related Links </a>
+                               <ul class="uk-nav-sub">
+                                       <li><a href="http://getpelican.com/" target="_blank"> Pelican </a></li>
+                                       <li><a href="http://python.org/" target="_blank"> Python.org </a></li>
+                                       <li><a href="http://jinja.pocoo.org/" target="_blank"> Jinja2 </a></li>
+                                       <li><a href="https://github.com/lucachr/pelican-mg" target="_blank"> mg </a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- footer -->
+            <footer id="jojo-page-bottum" class="uk-clearfix">
+            <div class="uk-panel uk-panel-box uk-margin-large-top uk-container-center">
+                <p class="uk-text-center">
+                    © 2017 twomaos. All rights reserved. <br>
+
+                    Code snippets in the pages are released under
+                    <a href="https://opensource.org/licenses/MIT"> The MIT License </a>
+                    , unless otherwise specified. <br><br>
+
+                    Powered by <a href= "http://docs.getpelican.com/">Pelican</a>.
+                    Theme <a href="#">jojo</a> by <a href="http://dokelung.me/">dokelung</a>
+                    powered by <a href="https://getuikit.com/v2/index.html"> uikit2 </a>
+                    inspired by <a href="https://github.com/lucachr/pelican-mg">mg</a>.
+                </p>
+            </div>
+            </footer>
+
+        </div>
+    </main>
+
+
+</body>
+</html>
