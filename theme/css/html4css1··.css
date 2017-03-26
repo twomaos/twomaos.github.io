@@ -2,7 +2,9 @@
 :Author: David Goodger (goodger@python.org)
 :Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
 :Copyright: This stylesheet has been placed in the public domain.
+
 Default cascading style sheet for the HTML output of Docutils.
+
 See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
 customize this style sheet.
 */
@@ -75,6 +77,7 @@ div.warning p.admonition-title, .code .error {
    compound paragraphs.
 div.compound .compound-first, div.compound .compound-middle {
   margin-bottom: 0.5em }
+
 div.compound .compound-last, div.compound .compound-middle {
   margin-top: 0.5em }
 */
@@ -146,8 +149,8 @@ h1.title {
 h2.subtitle {
   text-align: center }
 
-//hr.docutils {
-//  width: 75% }
+hr.docutils {
+  width: 75% }
 
 img.align-left, .figure.align-left, object.align-left {
   clear: left ;
